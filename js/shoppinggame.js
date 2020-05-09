@@ -1,6 +1,6 @@
 let gameComplete = false;
 // Define the three constants here
-const name = "unkown";
+const name = "unknown";
 const score = 0;
 const items = 0;
 // Define the player object here
@@ -63,7 +63,7 @@ class Rating {
   }
   set rating(value) {
     if (value > 1 && value <= 4) {
-      this.rate = "ok";
+      this.rate = "OK";
     } else if (value >= 5 && value <= 7) {
       this.rate = "GOOD";
     } else if (value > 7) {
