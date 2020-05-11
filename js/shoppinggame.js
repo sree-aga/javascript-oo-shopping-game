@@ -89,7 +89,7 @@ const loadProducts = (map, prodId) => {
         const value = item[1];
 
         // Create and assign an instance of Product to prodObj here
-        let prodObjb = new Product();
+        let prodObj = new Product();
 
         if (prodObj != undefined && prodObj != null) {
           for (let i = 0; i < prodKeys.length; i++) {
